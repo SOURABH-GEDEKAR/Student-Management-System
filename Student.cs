@@ -8,6 +8,8 @@ namespace StudentManagementSystem
         public string Email { get; set; } = "";
         public string Course { get; set; } = "";
 
+        public int MobileNO { get; set; } //add new property
+
         private int age; //Private field --> Stores the actual integer value, Cannot be accessed directly from outside the class
         public int Age  //Public property --> Controls access to the value, Can be accessed from outside the class
         {
